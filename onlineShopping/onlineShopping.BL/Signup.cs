@@ -1,33 +1,59 @@
 ﻿using onlineShopping.DL;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Text;
 using System.Threading;
+
 
 namespace onlineShopping.BL
 {
     public class Signup
     {
+        SqlConnection connect = new SqlConnection(@"Data Source=DESKTOP-PT5DGTR;Initial Catalog=Customerdb;Integrated Security=True");
+
+
+        public void Add(Customer obj)
+        {
+
+            SqlCommand cmd = new SqlCommand("addCustomer", connect);
+            cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@username", obj.username);
+            cmd.Parameters.AddWithValue("@password", obj.password);
+        }
+        string username,password,Username,Password;
         public List<Customer> UserCredentials = new List<Customer>()
         {
-            new Customer("Ark","Gabriel")
+            new Customer()
         };
 
 
-        public void loginMethod()
+        public void registerMethod()
         {
-            string username, password, Username, Password;
-            int ctr = 0;
-            Signup c = new Signup();
+            
             Console.WriteLine("Create Account:");
             Console.WriteLine("");
             Console.Write("Username: ");
-            username = Console.ReadLine();
+            string username = Console.ReadLine();
             Console.Write("Password: ");
-            password = Console.ReadLine();
+            string password = Console.ReadLine();
             Console.WriteLine("");
             Console.WriteLine("Successfuly Created!");
             Console.WriteLine("");
+
+            Console.WriteLine("Username: "+username);
+            Console.WriteLine("Password: "+password);
+            this.username = username;
+            this.password = password;
+            loginMethod();
+
+            
+        }
+        public void loginMethod()
+        {
+            
+            int ctr = 0;
+            
             for (int i = 2; i > 0; i--)
             {
                 Console.WriteLine();
@@ -39,10 +65,13 @@ namespace onlineShopping.BL
             do
             {
                 Console.Write("Input a username: ");
-                Username = Console.ReadLine();
+                string Username = Console.ReadLine();
 
                 Console.Write("Input a password: ");
-                Password = Console.ReadLine();
+                string Password = Console.ReadLine();
+
+                this.Username = Username;
+                this.Password = Password;
 
                 if (username != Username || password != Password)
                 {
@@ -64,7 +93,26 @@ namespace onlineShopping.BL
                 {
                     Console.WriteLine(i);
                     Thread.Sleep(1000);
-                    loginMethod();
+
+                   
+                    
+                }
+                Signup sign = new Signup();
+                Console.WriteLine("Don't have an account? Register Now?");
+                Console.WriteLine("[1] If Yes\n[2] If No");
+
+                int optionselected = Convert.ToInt32(Console.ReadLine());
+                if (optionselected.Equals(1))
+                {
+                    sign.registerMethod();
+                }
+                else if (optionselected.Equals(2))
+                {
+                    sign.loginMethod();
+                }
+                else
+                {
+
                 }
 
             }
@@ -83,11 +131,6 @@ namespace onlineShopping.BL
                 home.una();
             }
         }
-
+       
     }
 }
-
-
-
-
-

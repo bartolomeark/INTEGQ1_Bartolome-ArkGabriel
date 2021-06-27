@@ -10,6 +10,7 @@ namespace onlineShopping.BL
            ManageProduct productServices = new ManageProduct();
 
         START:
+            Console.Write("------------------------------------------------------");
             Console.Write("------------------------------------------------------\n");
             Console.WriteLine("Welcome to Calle Street Shop!\n");
             Console.WriteLine("Press [1] to view products.");
@@ -54,7 +55,7 @@ namespace onlineShopping.BL
                 default:
                     Console.WriteLine("Invalid Option!");
                     goto START;
-                    break;
+                    
 
             }
 

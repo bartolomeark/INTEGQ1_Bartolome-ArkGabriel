@@ -22,3 +22,12 @@ C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\
 C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Utilities.dll
 C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\Microsoft.SqlServer.TransactSql.ScriptDom.dll
 C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\onlineShopping.DL.pdb
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\WebApplication2.dll
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\WebApplication2.pdb
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping\bin\Debug\netcoreapp3.1\WebApplication2.dll.config

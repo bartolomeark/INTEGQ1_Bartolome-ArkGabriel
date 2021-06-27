@@ -57,3 +57,4 @@ C:\Users\USER\Desktop\oop\onlineShopping\WebApplication2\obj\Debug\WebApplicatio
 C:\Users\USER\Desktop\oop\onlineShopping\WebApplication2\obj\Debug\WebApplication2.csproj.CopyComplete
 C:\Users\USER\Desktop\oop\onlineShopping\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\USER\Desktop\oop\onlineShopping\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\USER\Desktop\oop\onlineShopping\WebApplication2\bin\IISExpressBootstrapper.dll

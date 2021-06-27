@@ -1,16 +1,15 @@
 ﻿using System;
+using System.Data.SqlClient;
+using onlineShopping;
 
 namespace onlineShopping.DL
 {
     public class Customer
     {
-        private string username;
-        private string password;
-        public Customer(string username, string password)
-        {
-            this.username = username;
-            this.password = password;
-        }
+
+        public string username;
+        public string password;
+        
 
         public string UserName
         {
@@ -34,6 +33,8 @@ namespace onlineShopping.DL
                 password = value; 
             }
         }
+
+      
     }
 }
 

@@ -13,7 +13,7 @@ namespace WebApplication2
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
-     //[System.Web.Script.Services.ScriptService]
+     [System.Web.Script.Services.ScriptService]
     public class WebService1 : System.Web.Services.WebService
     {
 
@@ -28,7 +28,6 @@ namespace WebApplication2
         {
             return a+b;
         }
-
        
     }
 }

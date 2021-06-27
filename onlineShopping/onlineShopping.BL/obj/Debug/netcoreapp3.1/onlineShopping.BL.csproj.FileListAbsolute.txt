@@ -10,3 +10,6 @@ C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping.BL\obj\Debug\netcoreapp3
 C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping.BL\bin\Debug\netcoreapp3.1\onlineShopping.DL.dll
 C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping.BL\bin\Debug\netcoreapp3.1\onlineShopping.DL.pdb
 C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping.BL\obj\Debug\netcoreapp3.1\onlineShopping.BL.csproj.CopyComplete
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping.BL\bin\Debug\netcoreapp3.1\WebApplication2.dll
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping.BL\bin\Debug\netcoreapp3.1\WebApplication2.pdb
+C:\Users\USER\Desktop\oop\onlineShopping\onlineShopping.BL\bin\Debug\netcoreapp3.1\WebApplication2.dll.config

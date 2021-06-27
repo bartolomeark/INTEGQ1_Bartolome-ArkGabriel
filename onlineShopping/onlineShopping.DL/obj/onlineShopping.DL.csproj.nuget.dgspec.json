@@ -27,7 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\USER\\Desktop\\oop\\onlineShopping\\WebApplication2\\WebApplication2.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\oop\\onlineShopping\\WebApplication2\\WebApplication2.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -39,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,6 +66,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\USER\\Desktop\\oop\\onlineShopping\\WebApplication2\\WebApplication2.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\oop\\onlineShopping\\WebApplication2\\WebApplication2.csproj",
+        "projectName": "WebApplication2",
+        "projectPath": "C:\\Users\\USER\\Desktop\\oop\\onlineShopping\\WebApplication2\\WebApplication2.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
